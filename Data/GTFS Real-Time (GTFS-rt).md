@@ -8,6 +8,7 @@ While the GTFS-s feed provides static information about the transit network, the
 Below the links for the data stacks:
 
 GTFS-realtime data
+
 •	TripUpdate feed: https://svc.metrotransit.org/mtgtfs/tripupdates.pb
 
 •	VehiclePosition feed: https://svc.metrotransit.org/mtgtfs/vehiclepositions.pb
