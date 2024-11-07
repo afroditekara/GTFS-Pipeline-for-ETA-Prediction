@@ -6,7 +6,10 @@ While the GTFS-s feed provides static information about the transit network, the
  By integrating the GTFS-s and GTFS-rt feeds, transit agencies can provide a comprehensive view of their operations, combining scheduled information with real-time updates to deliver accurate and reliable transit data to passengers. 
 
 Below the links for the data stacks:
+
 GTFS-realtime data
 •	TripUpdate feed: https://svc.metrotransit.org/mtgtfs/tripupdates.pb
+
 •	VehiclePosition feed: https://svc.metrotransit.org/mtgtfs/vehiclepositions.pb
+
 •	ServiceAlerts feed: https://svc.metrotransit.org/mtgtfs/alerts.pb
