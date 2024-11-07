@@ -14,6 +14,8 @@ This project implements a data collection and processing pipeline designed to ha
 ## Overview
 The pipeline was developed to support machine learning models that predict ETAs by handling and processing large datasets. It is inspired by the methodology used in Chondrodima et al. (2022) but adapted to fit the computational constraints of this study.
 
+https://www.sciencedirect.com/science/article/pii/S2667096822000295
+
 ## Data 
 The transit data used in this pipeline is derived from GTFS (General Transit Feed Specification) feeds:
 
