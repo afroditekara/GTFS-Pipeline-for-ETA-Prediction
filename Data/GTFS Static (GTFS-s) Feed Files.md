@@ -14,3 +14,7 @@ The GTFS-s feed is typically a collection of comma-separated values (CSV) files 
 9.	feed_info.txt (Optional): Contains metadata about the dataset itself, including information such as feed_publisher_name, feed_publisher_url, and feed_version.
 
 These files, when combined, provide a complete set of static information for a PT network. In a PT network, stops represent specific locations where passengers can board or disembark from PT vehicles. A route is defined by a fixed sequence of stops, and a trip represents a single journey along a route, occurring at a specific time.
+
+Below the links for the data stacks:
+Static schedule data
+https://svc.metrotransit.org/mtgtfs/gtfs.zip 
