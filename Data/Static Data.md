@@ -1,6 +1,8 @@
 A.1. GTFS Static (GTFS-s) Feed Files
+
 The GTFS-s feed is typically a collection of comma-separated values (CSV) files containing relatively static information about a public transit (PT) network. This static information includes details that change infrequently, such as routes, stops, and schedules. Updates to these files may occur periodically, for example, when schedules are adjusted seasonally or when a new route is introduced.
  The GTFS-s feed consists of several mandatory and optional files that together provide a comprehensive description of a PT network:
+ 
 1.	agency.txt: This file includes information about the transit agencies providing the data in the feed. Each transit agency is identified by an agency_id. It contains fields such as agency_name, agency_url, and agency_timezone, which describe the agency's name, website, and timezone, respectively.
 2.	routes.txt: Contains the routes within the PT network, each identified by a route_id. Routes represent a specific path taken by a PT vehicle, and this file includes fields such as route_short_name, route_long_name, and route_type to provide a more detailed description of each route.
 3.	trips.txt: This file lists all the trips that occur on the routes in the PT network, each identified by a trip_id. A trip describes the movement of a PT vehicle along a specific route at a certain time. This file also includes fields such as service_id, trip_headsign, and direction_id.
