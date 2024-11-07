@@ -22,3 +22,46 @@ Contains information on fixed transit infrastructure, such as routes, stops, and
 ### Real-time Data
 Includes updates on the status of vehicles and trips, enabling dynamic adjustments for ETA predictions.
 
+## Features
+
+- Comprehensive Data Processing:
+  - End-to-end pipeline handling both static and real-time data
+  - Integrated data quality checks to ensure consistency
+  - Geospatial validation for route accuracy
+- Real-time Data Integration:
+  - Fetches real-time GTFS data every five seconds
+  - Refreshes static GTFS data every two hours
+- Geospatial Support:
+  - Uses PostgreSQL with PostGIS for spatial operations
+  - Supports spatial data processing for accurate geographic data handling
+
+ ## Pipeline Components
+1. Environment Setup:
+  - Python libraries: SQLAlchemy, pandas, dask, GeoPandas, and osmnx.
+2. Database Connection:
+  - PostgreSQL with PostGIS for spatial data management.
+3. Data Retrieval:
+  - Static GTFS data fetched periodically.
+  - Real-time GTFS data updated every five seconds.
+4. Data Processing:
+  - Checksum Verification: Detects changes in static and real-time data.
+  - Data Quality Checks: Ensures consistency, removes duplicates, and resolves timestamp errors.
+  - Spatial Validation: Cross-references routes with OpenStreetMap data.
+
+## Installation
+### Prerequisites
+Python 3.7+
+PostgreSQL with PostGIS
+
+## Database Setup
+1. Set up PostgreSQL and enable the PostGIS extension.
+2. Configure database connection credentials in the code.
+
+## Data Processing
+- Checksum Verification: Detects data changes.
+- Data Quality Checks: Ensures data consistency and correctness.
+- Merging & Cleaning: Combines static and real-time data with error handling for missing keys.
+
+## Results and Output
+Processed data stored in PostgreSQL for model training.
+Intermediate data saved as CSV files for auditing and debugging.
