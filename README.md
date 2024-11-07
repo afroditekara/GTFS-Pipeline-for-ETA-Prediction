@@ -3,10 +3,11 @@ This project implements a data collection and processing pipeline designed to ha
 
 ## Table of Contents
 - Overview
+- Data
 - Features
 - Pipeline Components
 - Installation
-- Usage
+- Database Setup
 - Data Processing
 - Results and Output
 
@@ -63,5 +64,5 @@ PostgreSQL with PostGIS
 - Merging & Cleaning: Combines static and real-time data with error handling for missing keys.
 
 ## Results and Output
-Processed data stored in PostgreSQL for model training.
-Intermediate data saved as CSV files for auditing and debugging.
+- Processed data stored in PostgreSQL for model training.
+- Intermediate data saved as CSV files for auditing and debugging.
