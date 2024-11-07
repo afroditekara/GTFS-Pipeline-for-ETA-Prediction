@@ -10,11 +10,11 @@ Usage
 Data Processing
 Results and Output
 
-Overview
+#Overview
 The pipeline was developed to support machine learning models that predict ETAs by handling and processing large datasets. It is inspired by the methodology used in Chondrodima et al. (2022) but adapted to fit the computational constraints of this study.
 
-Data Source
+#Data Source
 The transit data used in this pipeline is derived from GTFS (General Transit Feed Specification) feeds:
 
-Static Data: Contains information on fixed transit infrastructure, such as routes, stops, and schedules.
+#Static Data: Contains information on fixed transit infrastructure, such as routes, stops, and schedules.
 Real-time Data: Includes updates on the status of vehicles and trips, enabling dynamic adjustments for ETA predictions.
