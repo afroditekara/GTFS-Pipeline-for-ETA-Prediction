@@ -1,0 +1,14 @@
+# Core Libraries
+sqlalchemy
+pandas
+requests
+geopandas
+shapely
+osmnx
+gtfs-realtime-bindings
+dask
+geoalchemy2
+
+# Additional Libraries and Modules
+retrying              # Retry mechanism for requests (alternative to urllib3 retry, optional)
+urllib3               # For requests retry functionality (usually auto-installed with requests)
