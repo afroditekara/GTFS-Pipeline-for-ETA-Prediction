@@ -1,5 +1,5 @@
 # GTFS-Pipeline
-This project implements a data collection and processing pipeline designed to handle large volumes of static and real-time transit data from urban transit systems, specifically using General Transit Feed Specification (GTFS) data. The pipeline processes and merges this data to predict Estimated Time of Arrival (ETA) more accurately, utilizing a combination of static infrastructure data and dynamic real-time updates.
+This project implements a data collection and processing pipeline designed to handle large volumes of static and real-time transit data from urban transit systems, specifically using General Transit Feed Specification (GTFS) data. The pipeline processes and merges this data to predict Estimated Time of Arrival (ETA) more accurately, utilizing a combination of static infrastructure data and dynamic real-time updates. The Pipeline was deployed for a master thesis in University of Piraeus with the Title Traffic Prediction on Road Networks. The thesis pdf can be found on the files section.
 
 ## Table of Contents
 - Overview
